@@ -14,6 +14,10 @@ body {
     overflow-x: hidden;
 }
 
+.black{
+    color: black;
+}
+
 nav {
     background-color: white;
 }
