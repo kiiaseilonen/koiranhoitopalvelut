@@ -1,0 +1,662 @@
+*{
+    margin: 0;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+main {
+    margin-top: 10px;
+}
+body {
+    font-family: 'Architects Daughter', cursive;
+    overflow-x: hidden;
+}
+
+nav {
+    background-color: white;
+}
+
+.navbar {
+    z-index:10;
+    width:100%; 
+    background-color: white !important;
+}
+
+.nav-link {
+    font-size: 19px;
+    color: black;
+    
+}
+
+.nav-link:hover {
+    background-color: #f4c003;
+    transition: .7s;
+}
+
+.navbar-brand {
+    margin-left: 10px;
+}
+
+  #navbarToggler {
+      text-align: center;
+  }
+
+header {
+    height: 60px;
+
+}
+
+.logo {
+    float: left;
+    padding: 10px;
+    height: 50px;
+}
+
+#kuvasarja{
+    margin-top: 30px;
+}
+
+.center {
+    text-align: center;
+}
+
+.carousel-item {
+    height: 550px;
+    
+}
+
+.img-fluid{
+    width: 100%;
+}
+
+.etusivuhero {
+    position: relative;
+    display: inline-block;
+    width: 100%;  
+}
+
+
+.heroteksti {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    text-align: center;
+    color: white;
+
+    text-shadow: 0px 0px 6px rgba(0, 0, 0, 1);
+    text-shadow: 0px 0px 7px rgba(43, 42, 42);
+      
+}
+    
+.valkoinen {
+    color: white;
+}
+
+p {
+    margin: 5px;
+    font-size: 16px;
+    font-family:'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+h1 {
+    font-size: 70px;
+    color: #f4c003;
+}
+
+
+h2 {
+    font-size: 35px;
+    color: #f4c003;
+    font-weight: 400;
+}
+
+#etusivuh2 {
+    margin: 20px 0 20px 0;
+    text-align: center;
+
+}
+
+h3 {
+    font-size: 35px;
+    color: #f4c003;
+    margin: 5px;
+    
+}
+
+.pikkukuvat {
+    width: 100%;
+    height: 250px;
+    
+}
+.etusivukuvat {
+    height: 300px;
+}
+
+.testi {
+    color: white;
+    background-color: #f4c003;
+    border: 5px solid #f4c003;
+}
+
+th {
+    color: #f4c003;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+td {
+    font-size: 18px;
+}
+
+
+main {
+    background-image: url("https://garden.spoonflower.com/c/6304681/p/f/l/KmanmiVcDcE5tW1vB51PR4RqBA7aEdjjjj_Bi45-onjorJmE4SBqzVJd/Paw%20Prints%20-%20Muted%20Grays%20and%20Pinks.jpg");
+    
+}
+
+.container {
+    background-color: white;
+    padding: 0;
+}
+
+.padding15 {
+    padding: 15px;
+    padding-top: 0;
+}
+
+#hinnastokuva1 {
+    margin-left: 10%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    
+}
+
+#yhteystietoteksti {
+    margin-left: 10%;
+    margin-top: 5%;
+    
+}
+
+#otayhteytta{
+    margin-left: 10%;
+}
+
+form {
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.form-group {
+    margin-bottom: 5px;
+}
+
+.space {
+    margin-top: 10px;
+}
+
+.text-center {
+    color: white;
+} 
+
+@media (min-width: 100px) and (max-width: 400px) { 
+
+    .padding15 {
+        padding: 0;
+    }
+
+    .carousel-item.active, .carousel-item.start, .carousel-item-next {
+        height: 300px;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    #text-align{
+        margin-top: -10px;
+        text-align: center;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    .otsikko {
+        display: none;
+    } 
+
+    .valkoinen {
+        margin-top: -70px;
+        font-size: 30px;
+    }
+
+    #etusivuh2 {
+        margin-top: -40px;
+        margin-bottom: 40px;
+        font-size: 30px;
+    }
+
+    #hinnastokuva1 {
+        height: 250px;
+        margin-left: 15%;
+    }
+
+    #hinnastokuva2 {
+        display: none;
+    }
+
+    .etusivukuvat {
+        margin-left: 10%;
+        margin-bottom: 30px;
+    }
+
+    #poistuva-kuva {
+        display: none;
+    }
+
+    #poistuva-kuva2 {
+        display: none;
+    }
+    form {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #yhteystietoteksti{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #otayhteytta {
+        margin-left: -20px;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 470px) { 
+
+    .padding15 {
+        padding: 0;
+    }
+
+    .carousel-item.active, .carousel-item.start, .carousel-item-next {
+        height: 300px;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    #text-align{
+        margin-top: -10px;
+        text-align: center;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    .otsikko {
+        display: none;
+    } 
+
+    .valkoinen {
+        font-size: 30px;
+        margin-top: -40px;
+    }
+
+    #etusivuh2 {
+        margin-top: -5px;
+        margin-bottom: 40px;
+    }
+
+    #hinnastokuva1 {
+        height: 250px;
+        margin-left: 15%;
+    }
+
+    #hinnastokuva2 {
+        display: none;
+    }
+
+    .etusivukuvat {
+        margin-left: 20%;
+        margin-bottom: 30px;
+    }
+
+    #poistuva-kuva {
+        display: none;
+    }
+
+    #poistuva-kuva2 {
+        display: none;
+    }
+
+    form {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media (min-width: 470px) and (max-width: 577px) { 
+    
+    .padding15 {
+        padding: 0;
+    }
+    h3 {
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 55px;
+    }
+
+    .carousel-item.active, .carousel-item.start, .carousel-item-next {
+        max-height: 440px;
+        
+    }
+
+    .otsikko {
+        display: none;
+    }
+
+    .valkoinen {
+        margin-top: -130px;
+        font-size: 30px;
+    }
+
+    #etusivuh2 {
+        margin-top: -10%;
+        margin-bottom: 30px;
+    }
+
+    #text-align {
+        text-align: center;
+    }
+
+    .etusivukuvat {
+        width: 150px;
+        height: 150px;
+        margin-bottom: 30px;
+        margin-left: 60%;
+    }
+
+    #poistuva-kuva {
+        display: none;
+    }
+
+    #hinnastokuva1 {
+        height: 300px;
+        margin-left: 17%;
+    }
+
+    #hinnastokuva2 {
+        display: none;
+    }
+
+    .pikkukuvat {
+        height: 200px;
+        object-fit: cover;
+        margin-bottom: 20px;
+    }
+
+    input {
+        max-width: 400px;
+    }
+
+    textarea {
+        max-width: 300px;
+    }
+
+    #yhteystietoteksti{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+   
+ }
+
+
+@media (min-width: 577px) and (max-width: 768px) { 
+    
+    .container {
+        width: 700px;
+    }
+    
+    .carousel-item.active, .carousel-item.start, .carousel-item-next {
+        height: 350px;
+    }
+
+
+    .valkoinen {
+        font-size: 30px;
+    }
+
+    #reverse {
+        flex-direction: row-reverse;
+    
+    }
+
+    .etusivukuvat {
+        width: 150px;
+        height: 150px;
+    }
+
+    #hinnastokuva1 {
+        height: 300px;
+        margin-left: 20%;
+    }
+
+    #hinnastokuva2 {
+        display: none;
+    }
+
+    .pikkukuvat {
+        height: 200px;
+        object-fit: cover;
+        margin-bottom: 20px;
+    }
+
+    #yhteystietoteksti {
+        margin-left: 10px;
+    }
+
+    input {
+        margin-left: 50px;
+    }
+
+    .form-check {
+        margin-left: 50px;
+    }
+
+    textarea {
+        margin-left: 50px;
+    }
+
+    button {
+        margin-left: 50px;
+    }
+
+    form {
+        margin-left: 20px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 992px) { 
+    
+
+    .nav {
+        margin-left: 25%;
+    }
+
+    .carousel-item.active, .carousel-item.start, .carousel-item-next {
+        height: 400px;
+    }
+
+    .etusivukuvat {
+        width: 200px;
+        height: 200px;
+    }
+
+    .pikkukuvat {
+        height: 150px;
+        margin-top: 80px;
+    }
+
+    #profiilikuva {
+        height: 400px;
+        margin-top: 20px;
+    }
+
+    #hinnastokuva1{
+        height: 400px;
+        margin-left: 20%;
+    }
+
+    #hinnastokuva2 {
+        display: none;
+    }
+    
+    input {
+        margin-left: 60px;
+    }
+
+    .form-check {
+        margin-left: 60px;
+    }
+
+    textarea {
+        margin-left: 60px;
+    }
+
+    button {
+        margin-left: 60px;
+    }
+ }
+
+
+@media (min-width: 992px) and (max-width: 1200px) { 
+    
+    .navbar-nav {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        margin: auto;
+        margin-left: 35%;
+    }
+
+   
+
+    .etusivukuvat {
+        width: 250px;
+        height: 250px;
+    }
+
+    .pikkukuvat {
+        height: 200px;
+        margin-top: 30px;
+    }
+
+    #profiilikuva {
+        height: 550px;
+        margin-top: 40px;
+    }
+
+    #hinnastopitka {
+        width: 300px;
+    }
+
+    #hinnastokuva2 {
+        display: none;
+    }
+
+    input {
+        margin-left: 50px;
+    }
+
+    .form-check {
+        margin-left: 50px;
+    }
+
+    textarea {
+        margin-left: 50px;
+    }
+
+    button {
+        margin-left: 50px;
+    }
+
+    #hinnastokuva1 {
+        margin-left: 20%;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .navbar-nav{
+        position: absolute;
+        width: 100%;
+        left: 0;
+        margin: auto;
+        margin-left: 37%;
+    }
+    
+    #profiilikuva {
+        height: 650px;
+        margin-top: 20px;
+    }
+
+    #hinnastokuva1 {
+        width: 400px;
+    }
+
+    #hinnastokuva2 {
+        width: 400px;
+    }
+
+    input {
+        margin-left: 30px;
+    }
+
+    .form-check {
+        margin-left: 30px;
+    }
+
+    textarea {
+        margin-left: 30px;
+    }
+
+    button {
+        margin-left: 30px;
+    }
+}
+
+@media (min-width: 1400px) and (max-width: 1500px){
+    .navbar-nav{
+        position: absolute;
+        width: 100%;
+        left: 0;
+        margin: auto;
+        margin-left: 38%;
+    }
+
+    #hinnastokuva1 {
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 1500px) {
+    .navbar-nav{
+        position: absolute;
+        width: 100%;
+        left: 0;
+        margin: auto;
+        margin-left: 39%;
+    }
+
+    #hinnastokuva1 {
+        margin-bottom: 0;
+    }
+}
